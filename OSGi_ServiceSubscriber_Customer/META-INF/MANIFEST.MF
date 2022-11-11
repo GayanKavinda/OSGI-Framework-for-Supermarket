@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OSGi_ServiceSubscriber_Customer
+Bundle-SymbolicName: OSGi_ServiceSubscriber_Customer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: osgi_servicesubscriber_customer.ServiceActivatorCustomer
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: OSGi.ServiceSubscriber.Customer
+Import-Package: com.mtit.service,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
